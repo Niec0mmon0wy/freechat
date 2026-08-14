@@ -1,0 +1,39 @@
+/* Login Screen Styles */
+#login-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+#login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#username-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+/* Style for messages showing the sender's name */
+#messages li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+
+#messages li span {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 5px;
+}
